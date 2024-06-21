@@ -1,4 +1,4 @@
-table 50000 MyTable
+table 50001 MyTable
 {
     DataClassification = ToBeClassified;
 
@@ -9,16 +9,12 @@ table 50000 MyTable
             DataClassification = ToBeClassified;
 
         }
-        field(2; MyField2; Integer)
+        field(2; MyFieldTest; Integer)
         {
             DataClassification = ToBeClassified;
 
         }
-        field(3; MyField3; Integer)
-        {
-            DataClassification = ToBeClassified;
 
-        }
 
     }
 
@@ -57,5 +53,7 @@ table 50000 MyTable
     begin
 
     end;
+
+    // anja changes
 
 }
