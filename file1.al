@@ -1,4 +1,4 @@
-table 50001 MyTable
+table 500002 MyTable
 {
     DataClassification = ToBeClassified;
 
@@ -9,7 +9,7 @@ table 50001 MyTable
             DataClassification = ToBeClassified;
 
         }
-        field(2; MyFieldTest; Integer)
+        field(2; MyFieldTotestt2; Integer)
         {
             DataClassification = ToBeClassified;
 
@@ -35,6 +35,7 @@ table 50001 MyTable
         myInt: Integer;
 
     trigger OnInsert()
+    // abir changes
     begin
 
     end;
@@ -54,6 +55,5 @@ table 50001 MyTable
 
     end;
 
-    // anja changes
-
+    // abir changes
 }
