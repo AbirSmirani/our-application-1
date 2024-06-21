@@ -14,11 +14,7 @@ table 500002 MyTable
             DataClassification = ToBeClassified;
 
         }
-        field(3; MyField3; Integer)
-        {
-            DataClassification = ToBeClassified;
 
-        }
 
     }
 
